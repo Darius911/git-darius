@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.projects-section {
+  width: 100%;
+  
+  background-color: #45567d;
+  padding-top: 5rem;
+  
+  
+
+}
+.all-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+}
+.title-h2 {
+  
+  display: flex;
+  justify-content: center;
+  
+  
+  font-size: 2.5rem;
+  color: #fff;
+  
+
+}
+.title-h2 h2 {
+  width: fit-content;
+  border-bottom: 0.1rem solid #fff;
+  margin-bottom: 4rem;
+}
+.card {
+  width: 30%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.top {
+  background-color: #eeeeee;
+}
+.top h3 {
+  padding: 0.8rem 0;
+  font-size: 1.5rem;
+}
+.top p {
+  padding-bottom: 0.4rem;
+}
+.card-bg {
+  width: 100%;
+  
+  
+}
+.card-bg img {
+  
+  width: 100%;
+  object-fit: cover;
+}
+.card-bg-text {
+  background-color: #ffffff;
+  padding: 0.5rem 0;
+}
+.card-footer {
+  background-color: #303841;
+  padding: 1rem 0;
+ 
+ 
+ 
+  
+}
+.card-footer:hover::before {
+  content: " < ";
+  color: #b44d28;
+  font-weight: 900;
+  font-size: 1.5rem;
+  
+  
+}
+.card-footer:hover::after {
+  content: " / > ";
+  color: #b44d28;
+  font-weight: 900;
+  font-size: 1.5rem;
+ 
+  
+ 
+}
+.card-footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  transform: translate(-50%, -50%);
+  
+}

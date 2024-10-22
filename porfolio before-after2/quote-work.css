@@ -1,0 +1,85 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.quote-card {
+  width: 30%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+
+  
+  
+}
+
+.quote-header{
+  width: 100%;
+  height: 10vh ;
+  
+  background-color: #2e1c1f;}
+.creator {
+  width: 100%;
+  height: 10vh;
+  background-color: #2e1c1f;
+  color: #fff;
+}
+.quote-text p img {
+  
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #2e1c1f;
+}
+
+  
+
+.quote-text {
+  width: 100%;
+  
+  margin-inline :auto;
+  font-size: 1.5rem;
+  color:#2e1c1f ;
+  background-color: #fff;
+  
+  
+}
+.quote-author  {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1rem;
+  color:#2e1c1f ;
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+  
+}
+.svg-twitter img {
+  width: 2rem;
+  height: 2rem;
+  
+  
+}
+.flex-svg-quote {
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 2rem 0.5rem 0 0.5rem ;
+  
+}
+.new-quote p {
+  margin-right: 0.5rem;
+  background-color: #2e1c1f;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 0.19rem
+
+  
+
+}
+
