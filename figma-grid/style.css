@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,13 +16,13 @@ body {
 .calendar-container {
     width: 31.4rem;
     height: 31.1rem;
-    padding :1.88rem;
+    padding: 1.88rem;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
     border-radius: 1rem;
-background: #FFF;
-box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.07), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02);
+    background: #FFF;
+    box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.07), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02);
 
 }
 
@@ -31,7 +33,7 @@ box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.07), 0px 41.778px 33.422px 0px rg
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-   
+
 
 }
 
@@ -62,10 +64,10 @@ box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.07), 0px 41.778px 33.422px 0px rg
     width: 27.6rem;
     height: 4rem;
     display: grid;
-    
+
     grid-template-columns: repeat(7, 4rem);
     grid-template-rows: repeat(6, 4rem);
-    
+
 
 
 
@@ -82,12 +84,12 @@ box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.07), 0px 41.778px 33.422px 0px rg
 
 }
 
-.day-number:nth-child(25) {
+.day-number:hover {
     background: var(--Active, #45539D);
     color: #FFF;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
@@ -99,25 +101,34 @@ box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.07), 0px 41.778px 33.422px 0px rg
 .day-number:nth-child(41),
 .day-number:nth-child(42) {
     background: var(--Inactive, #F2F3F7);
-} 
-.day-number {
-    color: #000;
-text-align: center;
-font-variant-numeric: lining-nums tabular-nums;
-font-family: Inter,sans-serif;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.days {
-    color: #000;
-text-align: center;
-font-variant-numeric: lining-nums tabular-nums;
-font-family: Inter,sans-serif;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
 }
 
+.day-number:nth-child(39):hover,
+.day-number:nth-child(40):hover,
+.day-number:nth-child(41):hover,
+.day-number:nth-child(42):hover {
+    background: var(--Active, #45539D);
+}
+
+.day-number {
+    color: #000;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Inter, sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.days {
+    color: #000;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Inter, sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none
+}
