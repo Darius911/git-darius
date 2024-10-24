@@ -58,11 +58,13 @@ body {
 .arrows-propertys img {
     width: 0.875rem;
     height: 0.875rem;
+    
+    
 }
 
 .calendar {
     width: 27.6rem;
-    height: 4rem;
+    
     display: grid;
 
     grid-template-columns: repeat(7, 4rem);

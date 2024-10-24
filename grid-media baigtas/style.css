@@ -1,0 +1,23 @@
+
+ 
+.cards-container{
+  display: flex;
+  flex-direction: column;
+  
+  
+} 
+.card{
+  display: flex;
+  align-items: center;
+ 
+gap: 1.87rem;
+width: 28.8125rem;
+height: 7.75rem;
+flex-shrink: 0;
+margin-inline:auto;
+margin-top: 1.68rem;
+padding-left: 0.92rem;
+
+border-radius: 0.75rem;
+background: #EEE;
+}
